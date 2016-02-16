@@ -1,0 +1,79 @@
+.game_wrapper{font-family: arial;}
+.game_wrapper a {    
+	color: #333;
+    text-decoration: initial;
+    background-color: #fff;
+    padding: 5px 28px 5px 28px;
+    border-radius: 25px 0 0 25px;
+    font-family: arial;
+    float: left;
+    clear: left;
+    margin: 10px 0 0 0;
+}
+
+.game_wrapper .game_header{
+background-color: #3d3970;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-family: arial;
+    font-size: 1.5em;
+}
+
+.game_wrapper .input_container {background-color: #32b0a1; padding:10px;}
+.game_wrapper .input_container input{
+    height: 28px;
+    width: 30px;
+    margin: 10px 0 0 8px;
+    border-radius: 0px;
+    border: none;
+    padding: 0 0 0 11px;
+}
+.game_wrapper .input_container label{    
+    background-color: #fff;
+    padding: 4px 12px 7px 2px;
+    font-family: arial;
+    border-radius: 0 15px 15px 0;
+}
+
+.game_wrapper .input_container #playermessage{
+	background-color: white;
+    margin: 15px 0 0 0;
+    padding: 15px;
+}
+
+
+.game_wrapper #player_container .player {
+	overflow: hidden;    
+    background-color: fffeff;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.game_wrapper #player_container .player h2{
+    margin: 0 0 5px 0;
+    font-size: 1em;
+}
+.game_wrapper #player_container .player h2 .bust{padding: 0 0 0 8px; color: brown;}
+.game_wrapper #player_container .player h2 .win{padding: 0 0 0 8px; color: gold;}
+.game_wrapper #player_container .player h2 .tied{padding: 0 0 0 8px; color: dimgrey;}
+.game_wrapper #player_container .player .card_container .card{
+	width: 60px; 
+	height: 80px;
+	float: left;
+	border: 1px solid #333;
+	border-radius: 5px;
+	margin: 0 5px 0 0; 
+	position: relative; 
+	font-family: arial;
+}
+.game_wrapper #player_container .player .card_container .card span{position: absolute; font-family: initial; font-size: 0.7em;}
+.game_wrapper #player_container .player .card_container .card span:first-child{left: 5px; top: 3px;}
+.game_wrapper #player_container .player .card_container .card span:last-child{bottom: 3px; right: 5px;}
+.game_wrapper #player_container .player .card_container .card .suit{font-weight: bold;font-size: 1.5em;position: absolute;left: 20px;top: 25px;}
+.game_wrapper #player_container .player .card_container .card .suit.symbol_Club:before{content: '♣'; color: #25334d;}
+.game_wrapper #player_container .player .card_container .card .suit.symbol_Heart:before{content:'♥'; color: #32b0a1;}
+.game_wrapper #player_container .player .card_container .card .suit.symbol_Diamond:before{content:'♦'; color: #32b0a1;}
+.game_wrapper #player_container .player .card_container .card .suit.symbol_Spade:before{content:'♠'; color: #25334d;}
+.game_wrapper #player_container .player .card_container .card.hidden {background-color: #32b0a1;}
+.game_wrapper #player_container .player .card_container .card.hidden span{display: none;}
+.game_wrapper #player_container .player #dealers_final_score {line-height: 80px; margin: 0 0 0 20px; float: left;}
